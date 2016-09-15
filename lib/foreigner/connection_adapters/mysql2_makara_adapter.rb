@@ -41,5 +41,5 @@ module Foreigner
   end
 end
 
-Foreigner::Adapter.safe_include :JdbcAdapter, Foreigner::ConnectionAdapters::Mysql2Adapter
-Foreigner::Adapter.safe_include :Mysql2Adapter, Foreigner::ConnectionAdapters::Mysql2Adapter
+Foreigner::Adapter.safe_include :JdbcAdapter, Foreigner::ConnectionAdapters::Mysql2MakaraAdapter
+Foreigner::Adapter.safe_include :Mysql2MakaraAdapter, Foreigner::ConnectionAdapters::Mysql2MakaraAdapter
